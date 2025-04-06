@@ -1,0 +1,907 @@
+{
+  "resource": {
+    "id": 25,
+    "name": "dexis",
+    "url": "https://dexisonline.com/job-board/"
+  },
+  "scrapedAt": "2025-04-05T01:10:53.619Z",
+  "rawData": {
+    "jobs": [
+      {
+        "title": "Intelligence Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Intelligence Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4547281005",
+        "postedDate": "March 28, 2025"
+      },
+      {
+        "title": "Project Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Project Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4547280005",
+        "postedDate": "March 28, 2025"
+      },
+      {
+        "title": "Project Manager, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Project Manager, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4547277005",
+        "postedDate": "March 28, 2025"
+      },
+      {
+        "title": "Legal Analysts, DOD Office of the General Counsel (OIC)",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Legal Analysts, DOD Office of the General Counsel (OIC)",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4544777005",
+        "postedDate": "March 25, 2025"
+      },
+      {
+        "title": "Senior Administrator, DOD Office of the General Counsel",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Senior Administrator, DOD Office of the General Counsel",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4532997005",
+        "postedDate": "March 25, 2025"
+      },
+      {
+        "title": "Security Specialist, MARFOREUR/AF",
+        "company": "Dexis Professional Services",
+        "location": "Germany",
+        "description": "Security Specialist, MARFOREUR/AF",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4539740005",
+        "postedDate": "March 14, 2025"
+      },
+      {
+        "title": "Training and Assessment Analyst, MARFOREUR/AF",
+        "company": "Dexis Professional Services",
+        "location": "Germany",
+        "description": "Training and Assessment Analyst, MARFOREUR/AF",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4539681005",
+        "postedDate": "March 14, 2025"
+      },
+      {
+        "title": "Operations Planner, MARFOREUR/AF",
+        "company": "Dexis Professional Services",
+        "location": "Germany",
+        "description": "Operations Planner, MARFOREUR/AF",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4539716005",
+        "postedDate": "March 14, 2025"
+      },
+      {
+        "title": "Funds and Operations Analyst, MARFOREUR/AF",
+        "company": "Dexis Professional Services",
+        "location": "Germany",
+        "description": "Funds and Operations Analyst, MARFOREUR/AF",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4539724005",
+        "postedDate": "March 14, 2025"
+      },
+      {
+        "title": "Legal Analyst I, DOD Office of the General Counsel",
+        "company": "Dexis Professional Services",
+        "location": "Germany",
+        "description": "Legal Analyst I, DOD Office of the General Counsel",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4539716005",
+        "postedDate": "March 14, 2025"
+      },
+      {
+        "title": "Legal Analyst II, DOD Office of the General Counsel",
+        "company": "Dexis Professional Services",
+        "location": "Germany",
+        "description": "Legal Analyst II, DOD Office of the General Counsel",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4539716005",
+        "postedDate": "March 14, 2025"
+      },
+      {
+        "title": "Call for CVs - Administrative Assistant, Government Agency",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Administrative Assistant, Government Agency",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4527215005",
+        "postedDate": "February 07, 2025"
+      },
+      {
+        "title": "Call for CVs - Administrative Assistants, DCSA",
+        "company": "Dexis Professional Services",
+        "location": "California",
+        "description": "Call for CVs - Administrative Assistants, DCSA",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4532271005",
+        "postedDate": "February 20, 2025"
+      },
+      {
+        "title": "Call for CVs - Security Cooperation Subject Matter Expert (SME)",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Security Cooperation Subject Matter Expert (SME)",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4530525005",
+        "postedDate": "February 17, 2025"
+      },
+      {
+        "title": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+        "postedDate": "February 07, 2025"
+      },
+      {
+        "title": "Call for CVs - Cyber Workforce Development SME",
+        "company": "Dexis Professional Services",
+        "location": "Chile",
+        "description": "Call for CVs - Cyber Workforce Development SME",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4533847005",
+        "postedDate": "February 25, 2025"
+      },
+      {
+        "title": "Call for CVs - Financial Specialist/Credit Risk Analyst, Government Agency",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Financial Specialist/Credit Risk Analyst, Government Agency",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4527219005",
+        "postedDate": "February 07, 2025"
+      },
+      {
+        "title": "Call for CVs - Investment Advisor, Government Agency",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Investment Advisor, Government Agency",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+        "postedDate": "February 07, 2025"
+      },
+      {
+        "title": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524077005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Logistics Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Logistics Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+        "postedDate": "February 07, 2025"
+      },
+      {
+        "title": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Logistics Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Logistics Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+        "postedDate": "February 07, 2025"
+      },
+      {
+        "title": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+        "company": "Dexis Professional Services",
+        "location": "Washington, District of Columbia, United States",
+        "description": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Logistics Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Logistics Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      },
+      {
+        "title": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+        "company": "Dexis Professional Services",
+        "location": "Florida",
+        "description": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+        "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+        "postedDate": "February 11, 2025"
+      }
+    ]
+  },
+  "processedJobs": [
+    {
+      "title": "Intelligence Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Intelligence Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4547281005",
+      "postedDate": "March 28, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Project Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Project Analyst IV, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4547280005",
+      "postedDate": "March 28, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Project Manager, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Project Manager, DOJ Organized Crime Drug Enforcement Task Forces (OCDETF)",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4547277005",
+      "postedDate": "March 28, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Legal Analysts, DOD Office of the General Counsel (OIC)",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Legal Analysts, DOD Office of the General Counsel (OIC)",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4544777005",
+      "postedDate": "March 25, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Senior Administrator, DOD Office of the General Counsel",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Senior Administrator, DOD Office of the General Counsel",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4532997005",
+      "postedDate": "March 25, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Security Specialist, MARFOREUR/AF",
+      "company": "Dexis Professional Services",
+      "location": "Germany",
+      "description": "Security Specialist, MARFOREUR/AF",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4539740005",
+      "postedDate": "March 14, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Training and Assessment Analyst, MARFOREUR/AF",
+      "company": "Dexis Professional Services",
+      "location": "Germany",
+      "description": "Training and Assessment Analyst, MARFOREUR/AF",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4539681005",
+      "postedDate": "March 14, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Operations Planner, MARFOREUR/AF",
+      "company": "Dexis Professional Services",
+      "location": "Germany",
+      "description": "Operations Planner, MARFOREUR/AF",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4539716005",
+      "postedDate": "March 14, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Funds and Operations Analyst, MARFOREUR/AF",
+      "company": "Dexis Professional Services",
+      "location": "Germany",
+      "description": "Funds and Operations Analyst, MARFOREUR/AF",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4539724005",
+      "postedDate": "March 14, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Legal Analyst I, DOD Office of the General Counsel",
+      "company": "Dexis Professional Services",
+      "location": "Germany",
+      "description": "Legal Analyst I, DOD Office of the General Counsel",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4539716005",
+      "postedDate": "March 14, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Legal Analyst II, DOD Office of the General Counsel",
+      "company": "Dexis Professional Services",
+      "location": "Germany",
+      "description": "Legal Analyst II, DOD Office of the General Counsel",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4539716005",
+      "postedDate": "March 14, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Administrative Assistant, Government Agency",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Administrative Assistant, Government Agency",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4527215005",
+      "postedDate": "February 07, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Administrative Assistants, DCSA",
+      "company": "Dexis Professional Services",
+      "location": "California",
+      "description": "Call for CVs - Administrative Assistants, DCSA",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4532271005",
+      "postedDate": "February 20, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Security Cooperation Subject Matter Expert (SME)",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Security Cooperation Subject Matter Expert (SME)",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4530525005",
+      "postedDate": "February 17, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+      "postedDate": "February 07, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Cyber Workforce Development SME",
+      "company": "Dexis Professional Services",
+      "location": "Chile",
+      "description": "Call for CVs - Cyber Workforce Development SME",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4533847005",
+      "postedDate": "February 25, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Financial Specialist/Credit Risk Analyst, Government Agency",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Financial Specialist/Credit Risk Analyst, Government Agency",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4527219005",
+      "postedDate": "February 07, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Investment Advisor, Government Agency",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Investment Advisor, Government Agency",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+      "postedDate": "February 07, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524077005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Logistics Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Logistics Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+      "postedDate": "February 07, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Logistics Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Logistics Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Senior Associate/Business Analyst, Government Agency",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4527204005",
+      "postedDate": "February 07, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Special Technical Operations (STO) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+      "company": "Dexis Professional Services",
+      "location": "Washington, District of Columbia, United States",
+      "description": "Call for CVs - Assessment, Monitoring, and Evaluation (AM&E) Analyst II; INDOPACOM, DSCA GAME",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Special Operations Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Military Deception (MILDEC) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Joint Operations Planning and Execution System (JOPES) Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Logistics Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Logistics Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Focal Point Program Manager, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Communications Synchronization Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    },
+    {
+      "title": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+      "company": "Dexis Professional Services",
+      "location": "Florida",
+      "description": "Call for CVs - Cyber Operations Strategic Planner, DOD CENTCOM",
+      "link": "https://dexisonline.com/jobs/?gh_jid=4524044005",
+      "postedDate": "February 11, 2025",
+      "source": "dexis",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T01:10:53.619Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Netlify configuration file
+
+# Build settings
+[build]
+  # Directory to publish (output from React build)
+  publish = "build"
+  # Build command for React
+  command = "npm run build"
+
+# Handle SPA routing - redirect all requests to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables
+[build.environment]
+  # Explicitly set Node version
+  NODE_VERSION = "18" 

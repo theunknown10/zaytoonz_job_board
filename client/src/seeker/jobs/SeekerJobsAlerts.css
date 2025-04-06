@@ -1,0 +1,50 @@
+/* Job Alerts Page Styles */
+
+/* Tabs styling */
+.alerts-tabs {
+  display: flex;
+  margin-bottom: 1.5rem;
+  background: white;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.alerts-tabs .tab-button {
+  flex: 1;
+  padding: 1rem;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.alerts-tabs .tab-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.alerts-tabs .tab-button.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.alerts-tabs .tab-icon {
+  margin-right: 0.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .alerts-tabs {
+    flex-direction: column;
+  }
+
+  .alerts-tabs .tab-button {
+    padding: 0.75rem;
+  }
+} 

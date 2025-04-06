@@ -1,0 +1,182 @@
+{
+  "resource": {
+    "id": 24,
+    "name": "tanmia",
+    "url": "https://www.tanmia.ma"
+  },
+  "scrapedAt": "2025-04-05T00:46:00.223Z",
+  "rawData": {
+    "jobs": [
+      {
+        "title": "IMAL is recruiting 3 positions",
+        "company": "IMAL",
+        "location": "Morocco",
+        "description": "IMAL is recruiting 3 positions",
+        "type": "cdi",
+        "link": "https://tanmia.ma/04-04-2025/75795/",
+        "postedDate": "04 avril 2025"
+      },
+      {
+        "title": "4 Conseillers(ères) terrain",
+        "company": "Unknown",
+        "location": "Morocco",
+        "description": "4 Conseillers(ères) terrain",
+        "type": "cdi",
+        "link": "https://tanmia.ma/04-04-2025/75768/",
+        "postedDate": "04 avril 2025"
+      },
+      {
+        "title": "Officier- Information Management",
+        "company": "Unknown",
+        "location": "Morocco",
+        "description": "Officier- Information Management",
+        "type": "cdi",
+        "link": "https://tanmia.ma/03-04-2025/75724/",
+        "postedDate": "03 avril 2025"
+      },
+      {
+        "title": "Assistant(e) administratif(ve)",
+        "company": "Unknown",
+        "location": "Morocco",
+        "description": "Assistant(e) administratif(ve)",
+        "type": "cdi",
+        "link": "https://tanmia.ma/03-04-2025/75707/",
+        "postedDate": "03 avril 2025"
+      },
+      {
+        "title": "KfW recrute deux profils",
+        "company": "KfW",
+        "location": "Morocco",
+        "description": "KfW recrute deux profils",
+        "type": "cdi",
+        "link": "https://tanmia.ma/27-03-2025/75597/",
+        "postedDate": "27 mars 2025"
+      },
+      {
+        "title": "Animatreur.rice en Accompagnement entrepreneurial Programme AMAL",
+        "company": "Unknown",
+        "location": "Morocco",
+        "description": "Animatreur.rice en Accompagnement entrepreneurial Programme AMAL",
+        "type": "cdi",
+        "link": "https://tanmia.ma/27-03-2025/75579/",
+        "postedDate": "27 mars 2025"
+      },
+      {
+        "title": "Business Operations Manager, Morocco",
+        "company": "Unknown",
+        "location": "Morocco",
+        "description": "Business Operations Manager, Morocco",
+        "type": "cdi",
+        "link": "https://tanmia.ma/27-03-2025/75566/",
+        "postedDate": "27 mars 2025"
+      },
+      {
+        "title": "Responsable administration/finance",
+        "company": "Unknown",
+        "location": "Morocco",
+        "description": "Responsable administration/finance",
+        "type": "cdi",
+        "link": "https://tanmia.ma/27-03-2025/75558/",
+        "postedDate": "27 mars 2025"
+      }
+    ]
+  },
+  "processedJobs": [
+    {
+      "title": "IMAL is recruiting 3 positions",
+      "company": "IMAL",
+      "location": "Morocco",
+      "description": "IMAL is recruiting 3 positions",
+      "type": "cdi",
+      "link": "https://tanmia.ma/04-04-2025/75795/",
+      "postedDate": "04 avril 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    },
+    {
+      "title": "4 Conseillers(ères) terrain",
+      "company": "Unknown",
+      "location": "Morocco",
+      "description": "4 Conseillers(ères) terrain",
+      "type": "cdi",
+      "link": "https://tanmia.ma/04-04-2025/75768/",
+      "postedDate": "04 avril 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    },
+    {
+      "title": "Officier- Information Management",
+      "company": "Unknown",
+      "location": "Morocco",
+      "description": "Officier- Information Management",
+      "type": "cdi",
+      "link": "https://tanmia.ma/03-04-2025/75724/",
+      "postedDate": "03 avril 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    },
+    {
+      "title": "Assistant(e) administratif(ve)",
+      "company": "Unknown",
+      "location": "Morocco",
+      "description": "Assistant(e) administratif(ve)",
+      "type": "cdi",
+      "link": "https://tanmia.ma/03-04-2025/75707/",
+      "postedDate": "03 avril 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    },
+    {
+      "title": "KfW recrute deux profils",
+      "company": "KfW",
+      "location": "Morocco",
+      "description": "KfW recrute deux profils",
+      "type": "cdi",
+      "link": "https://tanmia.ma/27-03-2025/75597/",
+      "postedDate": "27 mars 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    },
+    {
+      "title": "Animatreur.rice en Accompagnement entrepreneurial Programme AMAL",
+      "company": "Unknown",
+      "location": "Morocco",
+      "description": "Animatreur.rice en Accompagnement entrepreneurial Programme AMAL",
+      "type": "cdi",
+      "link": "https://tanmia.ma/27-03-2025/75579/",
+      "postedDate": "27 mars 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    },
+    {
+      "title": "Business Operations Manager, Morocco",
+      "company": "Unknown",
+      "location": "Morocco",
+      "description": "Business Operations Manager, Morocco",
+      "type": "cdi",
+      "link": "https://tanmia.ma/27-03-2025/75566/",
+      "postedDate": "27 mars 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    },
+    {
+      "title": "Responsable administration/finance",
+      "company": "Unknown",
+      "location": "Morocco",
+      "description": "Responsable administration/finance",
+      "type": "cdi",
+      "link": "https://tanmia.ma/27-03-2025/75558/",
+      "postedDate": "27 mars 2025",
+      "source": "tanmia",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:46:00.223Z"
+    }
+  ]
+}

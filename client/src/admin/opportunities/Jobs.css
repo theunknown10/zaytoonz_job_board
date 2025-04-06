@@ -1,0 +1,27 @@
+.jobs-container {
+  width: 100%;
+  background-color: transparent;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  color: var(--primary-dark);
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure component containers take full width */
+.add-resource-container,
+.list-resources-container,
+.list-opportunities-container {
+  width: 100%;
+}
+
+/* Only keep specific overrides for tabs that aren't covered by AdminLayout.css */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+  }
+} 

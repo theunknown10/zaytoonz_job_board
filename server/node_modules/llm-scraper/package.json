@@ -1,0 +1,44 @@
+{
+  "type": "module",
+  "name": "llm-scraper",
+  "version": "1.5.1",
+  "description": "Turn any webpage intro structured data using LLMs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishushakov/llm-scraper.git"
+  },
+  "keywords": [
+    "llm",
+    "scraper",
+    "browser",
+    "playwright",
+    "puppeteer"
+  ],
+  "author": "Mish Ushakov <mishushakov@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mishushakov/llm-scraper/issues"
+  },
+  "homepage": "https://github.com/mishushakov/llm-scraper#readme",
+  "dependencies": {
+    "ai": "^3.1.12",
+    "node-llama-cpp": "^2.8.9",
+    "turndown": "^7.1.3",
+    "zod-to-json-schema": "^3.22.5"
+  },
+  "devDependencies": {
+    "@ai-sdk/anthropic": "^0.0.30",
+    "@ai-sdk/openai": "^0.0.2",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.79",
+    "ollama-ai-provider": "^0.10.0",
+    "playwright": "^1.43.1",
+    "typescript": "^5.4.5",
+    "zod": "^3.22.5"
+  }
+}

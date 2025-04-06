@@ -1,0 +1,1068 @@
+/* CV Maker Styles */
+.cv-builder {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.cv-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-section {
+  border-bottom: 1px solid #eaeaea;
+  transition: all 0.3s ease;
+}
+
+.cv-section.active {
+  background-color: #f9f9f9;
+}
+
+.cv-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cv-section-header:hover {
+  background-color: #f5f5f5;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.section-title h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-right: 0.5rem;
+}
+
+.section-actions {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.action-button.move-up,
+.action-button.move-down,
+.action-button.remove-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.action-button.move-up,
+.action-button.move-down {
+  background-color: rgba(0, 80, 0, 0.25);
+  color: #004d00; /* Darker green color for better visibility */
+}
+
+.action-button.move-up svg,
+.action-button.move-down svg {
+  width: 20px;
+  height: 20px;
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+.action-button.move-up:hover,
+.action-button.move-down:hover {
+  background-color: rgba(0, 102, 0, 0.4);
+  color: #003300; /* Even darker green on hover */
+}
+
+.action-button.remove-section {
+  background-color: transparent;
+  color: #666;
+}
+
+.action-button.remove-section:hover {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: #f44336;
+}
+
+.cv-section-content {
+  padding: 1.5rem;
+  border-top: 1px solid #eaeaea;
+  background-color: white;
+}
+
+/* Form Styles */
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.form-group.full-width {
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(125, 157, 107, 0.2);
+}
+
+.form-group.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form-group.checkbox label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.form-group.checkbox input {
+  margin-right: 8px;
+}
+
+/* Work and Education items */
+.work-item, .education-item {
+  margin-bottom: 1.5rem;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.item-header h4 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.section-divider {
+  height: 1px;
+  background-color: #eaeaea;
+  margin: 1.5rem 0;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  color: #9e9e9e;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.remove-button:hover {
+  color: #f44336;
+}
+
+.add-item-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border: 1px dashed #ccc;
+  color: var(--text-primary);
+  border-radius: 4px;
+  padding: 0.75rem;
+  width: 100%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.add-item-button svg {
+  margin-right: 0.5rem;
+}
+
+.add-item-button:hover {
+  background-color: #e9e9e9;
+  border-color: #bbb;
+}
+
+/* Add Section Container in CV Builder */
+.add-section-container {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #eaeaea;
+  background-color: #f9f9f9;
+}
+
+.add-section-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+.add-section-button {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: var(--shadow);
+  width: 100%;
+  justify-content: center;
+}
+
+.add-section-button svg {
+  margin-right: 0.5rem;
+}
+
+.add-section-button:hover {
+  background-color: var(--primary-dark);
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+/* Dropdown positioning */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 0.5rem 0;
+  z-index: 50;
+  margin-top: 0.5rem;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+/* Remove the external container styles as they're no longer needed */
+.add-section-container-external {
+  display: none;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* Placeholder for coming soon sections */
+.coming-soon {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--text-secondary);
+}
+
+.placeholder-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+/* Export CV Button */
+.action-button.download-cv {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.action-button.download-cv svg {
+  margin-right: 0.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .action-button.download-cv span {
+    display: none;
+  }
+  
+  .action-button.download-cv svg {
+    margin-right: 0;
+  }
+}
+
+/* Add section outer container and action buttons */
+.add-section-outer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.action-buttons-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Unified button style for all three buttons */
+.cv-action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #5a8a51 0%, #8cb369 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: var(--shadow);
+  min-width: 150px;
+}
+
+.cv-action-button svg {
+  margin-right: 0.5rem;
+}
+
+.cv-action-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.cv-action-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Dropdown positioning */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 0.5rem 0;
+  z-index: 50;
+  margin-top: 0.5rem;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .action-buttons-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .cv-action-button {
+    width: 100%;
+  }
+}
+
+/* Export Modal */
+.export-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+}
+
+.export-modal {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  text-align: center;
+  max-width: 90%;
+  width: 480px;
+  animation: modal-appear 0.3s ease-out forwards;
+}
+
+@keyframes modal-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.export-modal-content h3 {
+  color: #004d00;
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.export-loader {
+  margin: 0 auto 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.spinner {
+  animation: spin 2s linear infinite;
+  font-size: 3rem;
+  color: #004d00;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Keep for backward compatibility */
+.add-section-container {
+  display: none;
+}
+
+.section-description {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.field-tip {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.skill-item, .language-item, .certificate-item, .project-item, .volunteer-item, .publication-item, .reference-item {
+  margin-bottom: 1.5rem;
+}
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cv-modal {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+}
+
+.manage-cvs-modal {
+  max-width: 600px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #666;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.modal-content {
+  padding: 1.5rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #8cb369;
+  box-shadow: 0 0 0 3px rgba(140, 179, 105, 0.2);
+}
+
+/* Button styles */
+.primary-button, .secondary-button, .new-cv-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #5a8a51 0%, #8cb369 100%);
+  color: white;
+}
+
+.primary-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.secondary-button {
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.secondary-button:hover {
+  background-color: #e5e7eb;
+}
+
+.new-cv-button {
+  background: linear-gradient(135deg, #5a8a51 0%, #8cb369 100%);
+  color: white;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.new-cv-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+/* CV List styles */
+.cv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.cv-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s;
+}
+
+.cv-item.active {
+  border-color: #8cb369;
+  background-color: rgba(140, 179, 105, 0.1);
+}
+
+.cv-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cv-item-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  flex: 1;
+}
+
+.cv-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  color: #5a8a51;
+  font-size: 1.25rem;
+}
+
+.cv-item-details h4 {
+  margin: 0 0 0.25rem 0;
+  font-weight: 500;
+  color: #333;
+}
+
+.cv-item-details p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.cv-item-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  color: #6b7280;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.icon-button:hover {
+  background-color: #f3f4f6;
+  color: #5a8a51;
+}
+
+/* No CVs message */
+.no-cvs-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  text-align: center;
+  color: #6b7280;
+}
+
+.folder-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #d1d5db;
+}
+
+/* Modified alert */
+.cv-modified-alert {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background-color: rgba(234, 179, 8, 0.1);
+  border-left: 3px solid #eab308;
+  border-radius: 4px;
+  color: #854d0e;
+  font-size: 0.9rem;
+}
+
+/* Save CV button */
+.save-cv-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(135deg, #5a8a51 0%, #8cb369 100%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.save-cv-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.action-button.save-cv, .action-button.manage-cvs {
+  background: linear-gradient(135deg, #5a8a51 0%, #8cb369 100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .action-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+  
+  .cv-modal {
+    width: 95%;
+  }
+  
+  .modal-header, .modal-content, .modal-footer {
+    padding: 0.75rem 1rem;
+  }
+  
+  .cv-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .cv-item-actions {
+    align-self: flex-end;
+  }
+}
+
+/* Tab Navigation */
+.cv-tabs {
+  display: flex;
+  margin-bottom: 2rem;
+  background-color: white;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cv-tab {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.cv-tab svg {
+  font-size: 1.2rem;
+}
+
+.cv-tab:hover {
+  background-color: #f9f9f9;
+  color: #5a8a51;
+}
+
+.cv-tab.active {
+  background: linear-gradient(135deg, #5a8a51 0%, #8cb369 100%);
+  color: white;
+}
+
+/* My CVs Tab */
+.saved-cvs-container {
+  margin-bottom: 2rem;
+}
+
+.cv-list-container {
+  margin-top: 2rem;
+}
+
+.cv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cv-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  transition: all 0.2s;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+
+.cv-card.active {
+  border-color: #8cb369;
+  background-color: rgba(140, 179, 105, 0.03);
+}
+
+.cv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cv-card-header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #eee;
+  gap: 1rem;
+}
+
+.cv-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #f3f4f6;
+  color: #5a8a51;
+  font-size: 1.5rem;
+}
+
+.cv-card-title {
+  flex: 1;
+}
+
+.cv-card-title h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cv-card-title p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.cv-card-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background-color: #eee;
+}
+
+.card-action-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  gap: 0.5rem;
+  color: var(--text-primary);
+}
+
+.card-action-button svg {
+  font-size: 1.2rem;
+  color: #5a8a51;
+}
+
+.card-action-button span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card-action-button:hover {
+  background-color: #f9f9f9;
+}
+
+.card-action-button.delete svg {
+  color: #e53935;
+}
+
+.card-action-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cv-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* No CVs message */
+.no-cvs-message {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.no-cvs-message .folder-icon {
+  font-size: 4rem;
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.no-cvs-message p {
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.new-cv-button {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cv-card-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .card-action-button {
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .card-action-button span {
+    font-size: 0.8rem;
+  }
+} 

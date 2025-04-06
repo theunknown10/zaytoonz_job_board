@@ -1,0 +1,142 @@
+/* Admin Button Styles */
+.admin-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.5rem;
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.admin-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
+}
+
+.admin-button:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.admin-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Action buttons */
+.admin-button.edit {
+  background-color: #edf2f7;
+  color: #2c3e50;
+}
+
+.admin-button.edit:hover:not(:disabled) {
+  background-color: #e2e8f0;
+}
+
+.admin-button.delete {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.admin-button.delete:hover:not(:disabled) {
+  background-color: #fecaca;
+}
+
+.admin-button.save, 
+.admin-button.primary {
+  background-color: var(--primary-color, #4CAF50);
+  color: white;
+}
+
+.admin-button.save:hover:not(:disabled), 
+.admin-button.primary:hover:not(:disabled) {
+  background-color: var(--primary-dark, #388E3C);
+}
+
+.admin-button.cancel, 
+.admin-button.secondary {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.admin-button.cancel:hover:not(:disabled), 
+.admin-button.secondary:hover:not(:disabled) {
+  background-color: #e5e7eb;
+}
+
+.admin-button.danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+.admin-button.danger:hover:not(:disabled) {
+  background-color: #b91c1c;
+}
+
+/* Button sizes */
+.admin-button.small {
+  padding: 0.35rem;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  font-size: 0.9rem;
+}
+
+.admin-button.large {
+  padding: 0.6rem;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  font-size: 1.2rem;
+}
+
+/* Icon styling */
+.admin-button svg {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.admin-button.small svg {
+  width: 1em;
+  height: 1em;
+}
+
+.admin-button.large svg {
+  width: 1.4em;
+  height: 1.4em;
+}
+
+/* Button groups */
+.admin-button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Tooltip styling */
+.admin-button {
+  position: relative;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .admin-button-group {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .admin-button {
+    width: 40px;
+  }
+} 

@@ -1,0 +1,31 @@
+{
+  "resource": {
+    "id": 21,
+    "name": "IRex",
+    "url": "https://irex.applytojob.com/"
+  },
+  "scrapedAt": "2025-04-05T00:38:59.975Z",
+  "rawData": {
+    "jobs": [
+      {
+        "title": "In-Country Consultant for Educational Exchange - Peru, Fulbright Teachers for Global Classrooms Program",
+        "company": "IREX",
+        "location": "Lima, Peru",
+        "description": "In-Country Consultant for Educational Exchange - Peru, Fulbright Teachers for Global Classrooms Program",
+        "link": "https://irex.applytojob.com/apply/tlXKPyI6Pw/InCountry-Consultant-For-Educational-Exchange-Peru-Fulbright-Teachers-For-Global-Classrooms-Program"
+      }
+    ]
+  },
+  "processedJobs": [
+    {
+      "title": "In-Country Consultant for Educational Exchange - Peru, Fulbright Teachers for Global Classrooms Program",
+      "company": "IREX",
+      "location": "Lima, Peru",
+      "description": "In-Country Consultant for Educational Exchange - Peru, Fulbright Teachers for Global Classrooms Program",
+      "link": "https://irex.applytojob.com/apply/tlXKPyI6Pw/InCountry-Consultant-For-Educational-Exchange-Peru-Fulbright-Teachers-For-Global-Classrooms-Program",
+      "source": "IRex",
+      "status": "pending",
+      "scrapedAt": "2025-04-05T00:38:59.975Z"
+    }
+  ]
+}
