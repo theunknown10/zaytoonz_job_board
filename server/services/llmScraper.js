@@ -1,6 +1,6 @@
 /**
  * LLM Scraper Service
- * Handles job scraping using the llm-scraper library
+ * Handles job scraping using the local llm-scraper library
  */
 const { chromium } = require('playwright');
 const { z } = require('zod');
@@ -38,7 +38,8 @@ async function scrapeJobs(resource) {
   try {
     // Dynamically import ES Modules dependencies
     const openaiModule = await import('@ai-sdk/openai');
-    const llmScraperModule = await import('llm-scraper');
+    // Import local llm-scraper instead of npm package
+    const llmScraperModule = await import('../lib/llm-scraper/src/index.js');
     const LLMScraper = llmScraperModule.default;
     
     // Initialize OpenAI client with API key from environment
