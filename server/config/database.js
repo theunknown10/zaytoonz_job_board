@@ -1,21 +1,12 @@
 const { Pool } = require('pg');
 
-// Database configuration with enhanced SSL and error handling
+const isProduction = process.env.NODE_ENV === 'production';
+
+const connectionString = `postgresql://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_DATABASE}`;
+
 const pool = new Pool({
-  user: process.env.DB_USER || 'postgres',
-  host: process.env.DB_HOST || 'localhost',
-  database: process.env.DB_NAME || 'job_portal',
-  password: process.env.DB_PASSWORD || 'postgres',
-  port: process.env.DB_PORT || 5432,
-  ssl: process.env.DB_SSL === 'true' ? {
-    rejectUnauthorized: false,
-    // You can add CA certificate if provided by your database host
-    // ca: process.env.DB_CA_CERT
-  } : false,
-  // Connection timeout
-  connectionTimeoutMillis: 10000,
-  // Maximum number of clients the pool should contain
-  max: 20
+  connectionString: isProduction ? process.env.DATABASE_URL : connectionString,
+  ssl: isProduction ? { rejectUnauthorized: false } : false
 });
 
 // Enhanced connection handling
@@ -37,17 +28,6 @@ pool.on('error', (err) => {
 
 // Export pool with additional error handling
 module.exports = {
-  query: async (text, params) => {
-    try {
-      const start = Date.now();
-      const res = await pool.query(text, params);
-      const duration = Date.now() - start;
-      console.log('Executed query', { text, duration, rows: res.rowCount });
-      return res;
-    } catch (err) {
-      console.error('Query error:', err);
-      throw err;
-    }
-  },
+  query: (text, params) => pool.query(text, params),
   pool
 }; 
