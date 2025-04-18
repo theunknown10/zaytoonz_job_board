@@ -17,6 +17,9 @@ import SeekerJobsSearch from './seeker/jobs/SeekerJobsSearch';
 import SeekerJobs from './seeker/jobs/SeekerJobs';
 import SeekerResources from './seeker/SeekerResources';
 import SeekerAuth from './auth/SeekerAuth';
+import MainPage from './admin/opportunities/MainPage';
+import ListResources from './admin/opportunities/ListResources';
+import SocialNetworks from './admin/opportunities/SocialNetworks';
 
 // Protected route component
 const ProtectedRoute = ({ element }) => {
@@ -33,7 +36,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<MainPage />} />
+        <Route path="/main" element={<ListResources />} />
+        <Route path="/sm" element={<SocialNetworks />} />
         
         {/* Admin routes with AdminLayout */}
         <Route path="/admin" element={<AdminLayout />}>

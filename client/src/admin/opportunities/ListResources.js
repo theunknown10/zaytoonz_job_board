@@ -113,12 +113,18 @@ const ListResources = () => {
     }
   };
 
+  // Helper function to safely get filters
+  const getFilters = (resource) => {
+    if (!resource || !resource.filters) return [];
+    return Array.isArray(resource.filters) ? resource.filters : [];
+  };
+
   const handleFilterClick = (filter) => {
     setEditForm(prev => ({
       ...prev,
-      filters: prev.filters.includes(filter)
-        ? prev.filters.filter(f => f !== filter)
-        : [...prev.filters, filter]
+      filters: getFilters(prev).includes(filter)
+        ? getFilters(prev).filter(f => f !== filter)
+        : [...getFilters(prev), filter]
     }));
   };
 
@@ -141,13 +147,13 @@ const ListResources = () => {
   };
 
   // Get unique filters from all resources
-  const allFilters = [...new Set(resources.flatMap(resource => resource.filters))];
+  const allFilters = [...new Set(resources.flatMap(resource => getFilters(resource)))];
 
   // Filter resources based on search term and selected filter
   const filteredResources = resources.filter(resource => {
     const matchesSearch = resource.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          resource.url.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesFilter = selectedFilter === 'all' || resource.filters.includes(selectedFilter);
+    const matchesFilter = selectedFilter === 'all' || getFilters(resource).includes(selectedFilter);
     return matchesSearch && matchesFilter;
   });
 
@@ -437,7 +443,7 @@ const ListResources = () => {
                       </a>
                     </div>
                     <div className="col-filters">
-                      {resource.filters.map(filter => (
+                      {getFilters(resource).map(filter => (
                         <span key={filter} className="filter-tag">{filter}</span>
                       ))}
                     </div>

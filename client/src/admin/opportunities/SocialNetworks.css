@@ -1,0 +1,129 @@
+.social-networks-container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: -1;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.social-container {
+  width: 100%;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.social-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social-box {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-box img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.social-box p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.qr-code {
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.qr-code img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+/* Platform-specific colors */
+.social-item[data-platform="whatsapp"] {
+  border-top: 4px solid #25d366;
+}
+
+.social-item[data-platform="telegram"] {
+  border-top: 4px solid #0088cc;
+}
+
+.social-item[data-platform="facebook-community"],
+.social-item[data-platform="facebook-page"] {
+  border-top: 4px solid #1877f2;
+}
+
+.social-item[data-platform="linkedin-community"],
+.social-item[data-platform="linkedin-page"] {
+  border-top: 4px solid #0a66c2;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .social-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-logo {
+    max-width: 150px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}

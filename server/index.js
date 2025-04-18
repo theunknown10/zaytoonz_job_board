@@ -6,11 +6,13 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Update CORS configuration to allow requests from any origin
+// Enhanced CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-netlify-site.netlify.app', process.env.CORS_ORIGIN || '*'] 
+    ? 'your-production-domain.com'  // Replace with your actual production domain
     : 'http://localhost:3000',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Accept'],
   credentials: true
 }));
 

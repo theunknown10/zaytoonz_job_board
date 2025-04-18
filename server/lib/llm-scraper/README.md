@@ -1,25 +1,4 @@
-# LLM Scraper (Local Copy)
-
-This is a local copy of the llm-scraper package integrated directly into our application.
-
-## Why a Local Copy?
-
-We've integrated the llm-scraper directly into our application for the following reasons:
-- Better deployment workflow with Netlify
-- Easier version control and customization
-- Simplified project structure with all code in one repository
-
-## Original Package
-
-The original package can be found at: https://github.com/williamkpchan/llm-scraper
-
-## Usage in Our Application
-
-This library is used by the scraping service in our application to extract job listings from various websites using GPT-4o. The implementation can be found in `server/services/llmScraper.js`.
-
----
-
-## Original README Content
+# LLM Scraper
 
 <img width="1800" alt="Screenshot 2024-04-20 at 23 11 16" src="https://github.com/mishushakov/llm-scraper/assets/10400064/ab00e048-a9ff-43b6-81d5-2e58090e2e65">
 
