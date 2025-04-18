@@ -1,6 +1,6 @@
 const { Pool } = require('pg');
 
-// Get database configuration from environment variables or use defaults
+// Database configuration with enhanced SSL and error handling
 const pool = new Pool({
   user: process.env.DB_USER || 'postgres',
   host: process.env.DB_HOST || 'localhost',
@@ -8,18 +8,46 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD || 'postgres',
   port: process.env.DB_PORT || 5432,
   ssl: process.env.DB_SSL === 'true' ? {
-    rejectUnauthorized: false
-  } : false
+    rejectUnauthorized: false,
+    // You can add CA certificate if provided by your database host
+    // ca: process.env.DB_CA_CERT
+  } : false,
+  // Connection timeout
+  connectionTimeoutMillis: 10000,
+  // Maximum number of clients the pool should contain
+  max: 20
 });
 
-// Test the connection
+// Enhanced connection handling
 pool.on('connect', () => {
   console.log('Connected to PostgreSQL database');
 });
 
 pool.on('error', (err) => {
-  console.error('Unexpected error on idle client', err);
-  process.exit(-1);
+  console.error('Database connection error:', err);
+  
+  // Only exit for critical connection errors
+  if (err.code === 'PROTOCOL_CONNECTION_LOST' || 
+      err.code === 'ECONNREFUSED' || 
+      err.code === 'ETIMEDOUT') {
+    console.error('Critical database error - shutting down');
+    process.exit(1);
+  }
 });
 
-module.exports = pool; 
+// Export pool with additional error handling
+module.exports = {
+  query: async (text, params) => {
+    try {
+      const start = Date.now();
+      const res = await pool.query(text, params);
+      const duration = Date.now() - start;
+      console.log('Executed query', { text, duration, rows: res.rowCount });
+      return res;
+    } catch (err) {
+      console.error('Query error:', err);
+      throw err;
+    }
+  },
+  pool
+}; 

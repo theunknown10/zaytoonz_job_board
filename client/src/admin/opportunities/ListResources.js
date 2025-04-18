@@ -115,25 +115,43 @@ const ListResources = () => {
 
   // Helper function to safely get filters
   const getFilters = (resource) => {
-    if (!resource || !resource.filters) return [];
-    return Array.isArray(resource.filters) ? resource.filters : [];
+    if (!resource) return [];
+    if (!resource.filters) return [];
+    // Handle string JSON
+    if (typeof resource.filters === 'string') {
+      try {
+        const parsed = JSON.parse(resource.filters);
+        return Array.isArray(parsed) ? parsed : [];
+      } catch (e) {
+        return [];
+      }
+    }
+    // Handle direct JSON object
+    if (typeof resource.filters === 'object') {
+      return Array.isArray(resource.filters) ? resource.filters : [];
+    }
+    return [];
   };
 
   const handleFilterClick = (filter) => {
-    setEditForm(prev => ({
-      ...prev,
-      filters: getFilters(prev).includes(filter)
-        ? getFilters(prev).filter(f => f !== filter)
-        : [...getFilters(prev), filter]
-    }));
+    setEditForm(prev => {
+      const currentFilters = getFilters(prev);
+      return {
+        ...prev,
+        filters: currentFilters.includes(filter)
+          ? currentFilters.filter(f => f !== filter)
+          : [...currentFilters, filter]
+      };
+    });
   };
 
   const handleAddCustomFilter = (e) => {
     e.preventDefault();
-    if (newFilter.trim() && !editForm.filters.includes(newFilter.trim())) {
+    const currentFilters = getFilters(editForm);
+    if (newFilter.trim() && !currentFilters.includes(newFilter.trim())) {
       setEditForm(prev => ({
         ...prev,
-        filters: [...prev.filters, newFilter.trim()]
+        filters: [...currentFilters, newFilter.trim()]
       }));
       setNewFilter('');
     }
@@ -142,7 +160,7 @@ const ListResources = () => {
   const handleRemoveFilter = (filterToRemove) => {
     setEditForm(prev => ({
       ...prev,
-      filters: prev.filters.filter(filter => filter !== filterToRemove)
+      filters: getFilters(prev).filter(filter => filter !== filterToRemove)
     }));
   };
 
@@ -153,7 +171,8 @@ const ListResources = () => {
   const filteredResources = resources.filter(resource => {
     const matchesSearch = resource.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          resource.url.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesFilter = selectedFilter === 'all' || getFilters(resource).includes(selectedFilter);
+    const resourceFilters = getFilters(resource);
+    const matchesFilter = selectedFilter === 'all' || resourceFilters.includes(selectedFilter);
     return matchesSearch && matchesFilter;
   });
 
