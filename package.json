@@ -4,13 +4,13 @@
   "description": "Job Board Application",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm start",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
     "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "postinstall": "cd server && npm install"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.x"
   },
   "dependencies": {
     "concurrently": "^8.0.1"

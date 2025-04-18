@@ -4,8 +4,9 @@
   "description": "Job Portal API Server",
   "main": "start.js",
   "scripts": {
-    "start": "NODE_ENV=production node start.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
+    "postinstall": "npm rebuild bcrypt --build-from-source",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -29,5 +30,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
