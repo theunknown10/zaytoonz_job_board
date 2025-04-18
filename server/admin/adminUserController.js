@@ -3,7 +3,7 @@
  * Handles operations related to admin users
  */
 const pool = require('../config/database');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 /**
  * Create a new admin user
