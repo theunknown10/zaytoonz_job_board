@@ -2,23 +2,21 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 require('dotenv').config();
-const initDatabase = require('./config/init-db');
+const db = require('./config/database'); // Add database import
 
 const app = express();
 
-// Initialize database tables
-(async () => {
+// Database connection check
+const checkDatabaseConnection = async () => {
   try {
-    const dbInitialized = await initDatabase();
-    if (dbInitialized) {
-      console.log('Database tables are ready');
-    } else {
-      console.warn('Database initialization failed, some features might not work properly');
-    }
+    const result = await db.query('SELECT NOW()');
+    console.log('✅ Database connection successful');
+    return true;
   } catch (error) {
-    console.error('Failed to initialize database:', error);
+    console.error('❌ Database connection failed:', error.message);
+    return false;
   }
-})();
+};
 
 // Enhanced CORS configuration
 app.use(cors({
@@ -42,7 +40,7 @@ const adminResourcesRoutes = require('./routes/api/admin/resources');
 app.use('/api/admin', adminRoutes);
 app.use('/api/recruiter', recruiterRoutes);
 app.use('/api/seeker', seekerRoutes);
-app.use('/api/admin/resources/api', adminResourcesRoutes);
+app.use('/api/admin/resources', adminResourcesRoutes);
 
 // Serve static files from React build in production
 if (process.env.NODE_ENV === 'production') {
@@ -86,10 +84,13 @@ app.get('/health', (req, res) => {
   res.status(200).send('OK');
 });
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '0.0.0.0', async () => {
   console.log(`Server is running on port ${PORT}`);
+  
+  // Check database connection on startup
+  await checkDatabaseConnection();
 });
 
 module.exports = app; 
