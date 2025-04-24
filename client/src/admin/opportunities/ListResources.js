@@ -35,16 +35,44 @@ const ListResources = () => {
   }, []);
 
   const fetchResources = async () => {
+    setLoading(true);
+    setError(null);
+    
     try {
+      console.log('Fetching job resources...');
       const response = await fetch('/api/admin/resources/jobs');
+      
+      if (!response.ok) {
+        // Handle HTTP error responses
+        let errorMessage = 'Failed to fetch job resources';
+        
+        try {
+          // Try to parse error response
+          const errorData = await response.json();
+          errorMessage = errorData.message || errorMessage;
+        } catch (parseError) {
+          // If can't parse JSON, use text or status
+          const errorText = await response.text();
+          errorMessage = errorText || `Server error: ${response.status} ${response.statusText}`;
+        }
+        
+        throw new Error(errorMessage);
+      }
+      
       const responseText = await response.text();
+      
+      if (!responseText.trim()) {
+        throw new Error('Empty response received from server');
+      }
       
       try {
         const data = JSON.parse(responseText);
-        if (!response.ok) {
-          throw new Error(data.message || 'Failed to fetch resources');
+        if (!data.data || !Array.isArray(data.data)) {
+          throw new Error('Invalid data format received from server');
         }
+        
         setResources(data.data);
+        console.log('Successfully loaded', data.data.length, 'resources');
       } catch (parseError) {
         console.error('Error parsing response:', parseError);
         throw new Error('Invalid response format from server');

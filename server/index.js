@@ -2,8 +2,23 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 require('dotenv').config();
+const initDatabase = require('./config/init-db');
 
 const app = express();
+
+// Initialize database tables
+(async () => {
+  try {
+    const dbInitialized = await initDatabase();
+    if (dbInitialized) {
+      console.log('Database tables are ready');
+    } else {
+      console.warn('Database initialization failed, some features might not work properly');
+    }
+  } catch (error) {
+    console.error('Failed to initialize database:', error);
+  }
+})();
 
 // Enhanced CORS configuration
 app.use(cors({
