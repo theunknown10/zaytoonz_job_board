@@ -66,41 +66,19 @@ const createJobResource = async (req, res) => {
 
 const getJobResources = async (req, res) => {
   try {
-    // First check if connection is available
-    const pingQuery = 'SELECT 1';
-    await pool.query(pingQuery);
-    
-    // Then execute the actual query with error handling
     const result = await pool.query(
       'SELECT * FROM job_resources ORDER BY created_at DESC'
     );
     
-    // Send successful response
-    return res.status(200).json({
+    res.json({
       status: 'success',
-      data: result.rows || []
+      data: result.rows
     });
   } catch (error) {
     console.error('Error fetching job resources:', error);
-    
-    // Provide more detailed error message based on the error type
-    let errorMessage = 'Failed to fetch job resources';
-    let statusCode = 500;
-    
-    if (error.code === 'ECONNREFUSED' || error.code === '57P03') {
-      errorMessage = 'Database connection failed - cannot reach database server';
-    } else if (error.code === '42P01') {
-      errorMessage = 'Table job_resources does not exist';
-      statusCode = 404;
-    } else if (error.code === '28P01') {
-      errorMessage = 'Invalid database credentials';
-      statusCode = 401;
-    }
-    
-    return res.status(statusCode).json({
+    res.status(500).json({
       status: 'error',
-      message: errorMessage,
-      error: error.message
+      message: 'Failed to fetch job resources'
     });
   }
 };

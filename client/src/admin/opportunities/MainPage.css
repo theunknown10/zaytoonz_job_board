@@ -1,5 +1,6 @@
 .main-page-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -11,4 +12,47 @@
   color: #333;
   text-align: center;
   font-family: Arial, sans-serif;
+  margin-bottom: 2rem;
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.nav-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-button {
+  background-color: #4a55af;
+}
+
+.admin-button:hover {
+  background-color: #3a438a;
+}
+
+.seeker-button {
+  background-color: #2a9d8f;
+}
+
+.seeker-button:hover {
+  background-color: #1e8a7b;
+}
+
+.sm-button {
+  background-color: #e76f51;
+}
+
+.sm-button:hover {
+  background-color: #d15a3c;
 } 
