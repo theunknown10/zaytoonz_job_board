@@ -3,14 +3,17 @@ const { Pool } = require('pg');
 const isProduction = process.env.NODE_ENV === 'production';
 
 // Construct connection string for DigitalOcean managed database
-const connectionString = `postgresql://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}?sslmode=require`;
+const connectionString = `postgresql://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+
+// Updated SSL configuration to handle self-signed certificates
+const sslConfig = {
+  rejectUnauthorized: false,  // This is important for handling self-signed certificates
+  sslmode: 'require'
+};
 
 const pool = new Pool({
   connectionString: connectionString,
-  ssl: {
-    rejectUnauthorized: false,
-    sslmode: 'require'
-  }
+  ssl: sslConfig  // Using the updated SSL configuration
 });
 
 // Enhanced connection handling
